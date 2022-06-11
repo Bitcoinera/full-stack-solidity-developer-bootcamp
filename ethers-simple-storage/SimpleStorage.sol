@@ -32,8 +32,4 @@ contract SimpleStorage {
         nameToFavoriteNumber[_name] = _favoriteNumber;
         favoriteNumberToName[_favoriteNumber] = _name;
     }
-
-    function getFavoriteNumber() public view returns (uint256) {
-        return favoriteNumber;
-    }
 }
